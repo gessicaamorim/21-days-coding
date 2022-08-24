@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background-color: white;
+}  
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.countdown li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: #09e;
+    background: #232222;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: inset 5px 5px 25px -2px #000000; 
+    box-shadow: inset 5px 5px 25px -2px #000000;
+} 
+
+.countdown li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+}   

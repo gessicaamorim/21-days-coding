@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://images.alphacoders.com/545/545752.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+
+.container {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.card {
+    display: flex;
+    min-width: 65%;
+    max-width: 80%;
+    height: 28vw;
+    -webkit-box-shadow: 5px 5px 24px -4px #000000; 
+    box-shadow: 5px 5px 24px -4px #000000;
+} 
+
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    color: rgb(222, 213, 213);
+    background-color: rgba(255, 252, 252, 0.17);  
+} 
+
+
+.footer p {
+    color: #000000;
+}
+
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(27, 25, 25, 0.783);
+}
+
+
+.title-contact h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(222, 213, 213);
+} 
+
+
+.contacts ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    padding-bottom: 30px;
+    color: rgb(222, 213, 213);
+} 
+
+
+li {
+    list-style-type: none;
+  }
+
+ 
+  a:link {
+    color: rgb(222, 213, 213);
+   }
+
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.avatar img {
+    width: 70%;
+    border-radius: 50rem;
+}
+
+
+.avatar h1 {
+    font-family: monospace;
+} 
+
+
+.skils h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
