@@ -8,7 +8,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    color: #64013c; 
 }
 
 .container {
@@ -27,7 +27,9 @@ h1 {
     font-size: 25px;
     -webkit-box-shadow: 5px 5px 13px 5px rgba(0,0,0,0.88); 
     box-shadow: 5px 5px 13px 5px rgba(47, 47, 47, 0.88);
+    color: white;
 }
+
 
 input {
 	margin-bottom: 20px;
@@ -72,17 +74,18 @@ input {
 
 #after_submit {
 	visibility: hidden;
-	background: #dcd8d8f0;
+	background: #e0dedef0;
 	padding: 10px 20px 10px 20px;
 	width: 400px;
     height: 550px;
 	border-radius: 20px;
 	float: left;
 	margin-left: 20px;
-	font-size: 35px;
+	font-size: 37px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-box-shadow: 5px 5px 13px 5px rgba(0,0,0,0.88); 
     box-shadow: 5px 5px 13px 5px rgba(47, 47, 47, 0.88); 
+    color: #1a1a1ae8;
 }
 
 #picture {
