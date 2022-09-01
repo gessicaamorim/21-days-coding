@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  input {
+    display: none;
+    padding-top: .7em;
+    width: 12rem;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: rgb(143, 143, 143)
+  }
+  
+  input:focus {
+    border-color: #333;
+  }
+  
+  .code {
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    color: #272727;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 12px 13px 15px -7px rgba(0,0,0,0.64); 
+    box-shadow: 0px 10px 13px -7px #000000, 12px 13px 15px -7px rgba(0,0,0,0.64);
+  }
+  
+  .key,
+  .press-key {
+    display: none;
+    font-size: 5em;
+    color: white;
+    padding: 26px 36px;
+    border-radius: 8px;
+    background-color: rgb(21, 20, 20);
+    
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 12px 13px 15px -7px rgba(0,0,0,0.64); 
+    box-shadow: 0px 10px 13px -7px #000000, 12px 13px 15px -7px rgba(0,0,0,0.64);
+  }
+  
+  @media (max-width: 600px) {
+    .code {
+      font-size: 12em;
+    }
+  
+    .key {
+      font-size: 1.6em;
+    }
+  }
