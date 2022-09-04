@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inserir-emoji {
+  border: solid 1px red;
+  padding: 10px;
+} 
+
+.emoji-box {
+  border: solid 1px green;
+  padding: 10px;
+  height: 160px;
+  width: 350px;
+}
+
+
+
