@@ -8,10 +8,13 @@
     <title>Emoji Picker</title>
 </head>
 <body>
+    <h1>Emoji Picker</h1>
     <div class="container">
         <div class="box">
+            <p id="alert-message" class="message-clipboard" hidden>dasdasd</p>
             <div class="inserir-emoji">
-                <input type="text">
+                <input type="text" id="input-field" placeholder="Enviar mensagem...">
+                <button class="enviar">Enviar</button>
             </div>
             <div class="emoji-box">
                 <span id="1">😀</span>
@@ -101,5 +104,8 @@
         </div>
     </div>
 </body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="./script.js"></script> 
+
 </html>

@@ -6,27 +6,79 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  align-content: center;
+  align-items: center;
+  height: 40vh;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-
 }
 
 .inserir-emoji {
-  border: solid 1px red;
   padding: 10px;
+  background-color: rgb(242, 223, 199);
+  margin-top: 10px;
+  border-radius: 20px 0px 0px 0;
 } 
 
+.inserir-emoji input{
+  width: 70%;
+  height: 35px;
+  padding-left: 10px;
+}
+.inserir-emoji button{
+  height: 39px;
+  width: 24%;
+  padding: 10px;
+  
+}
+
 .emoji-box {
-  border: solid 1px green;
   padding: 10px;
   height: 160px;
   width: 350px;
+  background: rgb(93, 2, 135);
+  border-radius: 0 0 20px 0px;
 }
 
+span{
+  cursor: pointer;
 
+}
+span:hover{
+  background-color: bisque;
+}
 
+span::selection{
+  background-color: rebeccapurple;
+}
+
+.message-clipboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 38.4px;
+    transition: 500ms;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.enviar {
+  color: rgb(67, 1, 98);
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+    color: rgb(67, 1, 98);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
